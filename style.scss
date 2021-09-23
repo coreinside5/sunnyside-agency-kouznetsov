@@ -11,25 +11,110 @@ $cc_vdarkgreyblue:  hsl(213, 9%, 39%);
 $cc_darkgreyblue:hsl(232, 10%, 55%);
 $cc_grayblue:   hsl(210, 4%, 67%);
 $cc_white:  hsl(0, 0%, 100%);
-$img_:  url(''); 
-$img_egg:  url('img/image-transform.jpg');
-$img_pinkgob: url('img/image-stand-out.jpg');
-$img_cherries:  url('img/image-graphic-design.jpg'); 
-$img_mandarine:  url('img/image-photography.jpg'); 
-
-
-body{
-    font-family: $font_stack;
-    font-size: 18px;
-    color: black;
-}
-
-.headbkgr{
-    background-image: url('img/image-header.jpg');
-    width: 1440px;
-    height: 700px;
-    background-size: contain;
+$cs_pagewidth:  1440px;
+$cs_halfwidth:  720px;
+$cs_quarterwidth:   360px;
+header{
+    width:$cs_pagewidth;
+    height: 800px;
+    border-collapse: collapse;    
     background-repeat: no-repeat;
+    background-size:cover;
+    
+}
+main{
+    width:$cs_pagewidth;
+    height: 100%;
+}
+footer{
+    width:$cs_pagewidth;
+    height: 500px;
+    border-collapse: collapse;    
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-color:$cc_darkmodcyan;
+}
+.leftpane{
+    width:$cs_halfwidth;
+    min-height: 600px;
+    float: left;
+    border-collapse: collapse;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 720px;
+}    
+.rightpane{
+    width:$cs_halfwidth;
+    min-height: 600px;
+    position: relative;
+    float: right;
+    border-collapse: collapse;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 720px;
+}
+.ci_halforange{
+    background-image: url('img/image-header.jpg');
+}
+.ci_egg{
+    background-image: url('img/image-transform.jpg');
+}
+.ci_goblet{
+    background-image: url('img/image-stand-out.jpg');
+}
+.ci_mandarin{
+    background-image: url('img/image-photography.jpg');
+}
+.ci_cherry{
+    background-image: url('img/image-graphic-design.jpg');
+}
+.ci_bottles{
+    background-image: url('img/image-gallery-milkbottles.jpg');
+}
+.ci_orangeplate{
+    background-image: url('img/image-gallery-orange.jpg');
+}
+.ci_cone{
+    background-image: url('img/image-gallery-cone.jpg');
+}
+.ci_sugar{
+    background-image: url('img/image-gallery-sugarcubes.jpg');
+}
+.llpane{
+    width:$cs_quarterwidth;
+    min-height: 500px;
+    float: left;
+    border-collapse: collapse;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.rrpane{
+    width:$cs_quarterwidth;
+    min-height: 500px;
+    float: right;
+    border-collapse: collapse;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+nav{
+    font-size: 20px;
+    color: white;
+}
+a{
+    text-decoration: none;
+}
+.contactbutton{
+    background-color: $cc_white;
+    border-radius: 25px;
+}
+li{
+    display: inline;   
+}
+ul{
+    display: flex;
+    margin: 200px 200px 200px 200px;
 }
 h1{
     font-size: 65px;
@@ -43,6 +128,7 @@ h2{
 }
 h3{
     font-size: 35px;
+    text-align: center;
 }
 h4{
     font-size: 30px;
@@ -53,53 +139,17 @@ h5{
     text-align: center;
 
 }
-nav{
-    font-size: 20px;
-    color: white;
-}
-a{
-    text-decoration: none;
-}
-.contactbutton{
-    background-color: $cc_white;
-    border-radius: 25px;
-}
-
-li{
-    display: inline;   
-}
-ul{
-    display: flex;
-    margin: 200px 200px 200px 200px;
-}
-
-.img_egg{
-    background-image:$img_egg;
-    background-size: cover;
-}
-.img_pinkgob{
-    background-image:$img_pinkgob;
-    background-size: cover;
-}
-.img_cherries{
-    background-image:$img_cherries;
-    background-size: cover;
-}
-.img_mandarine{
-    background-image:$img_mandarine;
-    background-size: cover;
-}
-.floatright{
-    width: 50%;
-    height:500px;
-    float: right;    
-}
-.floatleft{
-    width: 50%;
-    height: 500px;
-    float: left;
-}
 .roundedphoto{
-    border-radius: 50%;
-    
+    border-radius: 50%;    
 }
+.heightsection{
+    height: 600px;
+}
+.alignbottom {
+    position: absolute;
+    text-align: center;
+    bottom: 80px;
+    left: 200px;
+    right: 200px;
+    
+  }
