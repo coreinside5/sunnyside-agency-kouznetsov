@@ -1,0 +1,156 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@100&display=swap");
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+body {
+  font-family: "Barlow", sans-serif;
+  font-size: 18px;
+  color: black;
+}
+
+.headbkgr {
+  background-image: url("img/image-header.jpg");
+  width: 1440px;
+  height: 700px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+h1 {
+  font-size: 65px;
+  color: white;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+h2 {
+  font-size: 45px;
+  text-align: center;
+}
+
+h3 {
+  font-size: 35px;
+}
+
+h4 {
+  font-size: 30px;
+}
+
+h5 {
+  font-size: 22px;
+  font-weight: bold;
+  text-align: center;
+}
+
+nav {
+  font-size: 20px;
+  color: white;
+}
+
+a {
+  text-decoration: none;
+}
+
+.contactbutton {
+  background-color: white;
+  border-radius: 25px;
+}
+
+li {
+  display: inline;
+}
+
+ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 200px 200px 200px 200px;
+}
+
+.img_egg {
+  background-image: url("img/image-transform.jpg");
+  background-size: cover;
+}
+
+.img_pinkgob {
+  background-image: url("img/image-stand-out.jpg");
+  background-size: cover;
+}
+
+.img_cherries {
+  background-image: url("img/image-graphic-design.jpg");
+  background-size: cover;
+}
+
+.img_mandarine {
+  background-image: url("img/image-photography.jpg");
+  background-size: cover;
+}
+
+.floatright {
+  width: 50%;
+  height: 500px;
+  float: right;
+}
+
+.floatleft {
+  width: 50%;
+  height: 500px;
+  float: left;
+}
+
+.roundedphoto {
+  border-radius: 50%;
+}
+/*# sourceMappingURL=style.css.map */

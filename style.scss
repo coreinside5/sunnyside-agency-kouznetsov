@@ -1,0 +1,105 @@
+@import '_reset.scss';
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@100&display=swap');
+$font_stack:    'Barlow', sans-serif;
+$cc_softred:   hsl(7, 99%, 70%);
+$cc_yellow:  hsl(51, 100%, 49%);
+$cc_darkdescyan:     hsl(167, 40%, 24%);
+$cc_darkbluephoto:  hsl(198, 62%, 26%);
+$cc_darkmodcyan:   hsl(168, 34%, 41%);
+$cc_vdarkdescyan:   hsl(212, 27%, 19%);
+$cc_vdarkgreyblue:  hsl(213, 9%, 39%);
+$cc_darkgreyblue:hsl(232, 10%, 55%);
+$cc_grayblue:   hsl(210, 4%, 67%);
+$cc_white:  hsl(0, 0%, 100%);
+$img_:  url(''); 
+$img_egg:  url('img/image-transform.jpg');
+$img_pinkgob: url('img/image-stand-out.jpg');
+$img_cherries:  url('img/image-graphic-design.jpg'); 
+$img_mandarine:  url('img/image-photography.jpg'); 
+
+
+body{
+    font-family: $font_stack;
+    font-size: 18px;
+    color: black;
+}
+
+.headbkgr{
+    background-image: url('img/image-header.jpg');
+    width: 1440px;
+    height: 700px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+h1{
+    font-size: 65px;
+    color: white;
+    text-align: center;
+    text-transform:uppercase;
+}
+h2{
+    font-size: 45px;
+    text-align: center;
+}
+h3{
+    font-size: 35px;
+}
+h4{
+    font-size: 30px;
+}
+h5{
+    font-size: 22px;
+    font-weight:bold;
+    text-align: center;
+
+}
+nav{
+    font-size: 20px;
+    color: white;
+}
+a{
+    text-decoration: none;
+}
+.contactbutton{
+    background-color: $cc_white;
+    border-radius: 25px;
+}
+
+li{
+    display: inline;   
+}
+ul{
+    display: flex;
+    margin: 200px 200px 200px 200px;
+}
+
+.img_egg{
+    background-image:$img_egg;
+    background-size: cover;
+}
+.img_pinkgob{
+    background-image:$img_pinkgob;
+    background-size: cover;
+}
+.img_cherries{
+    background-image:$img_cherries;
+    background-size: cover;
+}
+.img_mandarine{
+    background-image:$img_mandarine;
+    background-size: cover;
+}
+.floatright{
+    width: 50%;
+    height:500px;
+    float: right;    
+}
+.floatleft{
+    width: 50%;
+    height: 500px;
+    float: left;
+}
+.roundedphoto{
+    border-radius: 50%;
+    
+}
